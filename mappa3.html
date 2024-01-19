@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Il Tuo Titolo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0%;
+      padding: 0;
+      background-color: #fff;
+    }
+
+    .title{
+      text-align: center;
+      font-weight: bold;            
+      font-size: 2.5rem;
+    }
+
+    .title2{
+      text-align: center;
+      font-weight: bold; 
+      margin: 3%;           
+      font-size: 1.2rem;
+    }
+
+    header {
+      background-color: hwb(42 0% 60%);
+      background-image: url("incidenti21.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 170px 0;
+      width: 100%;
+    }
+
+    nav {
+      text-align: center;
+      background-color: rgb(231, 130, 69);
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #f0f0f0;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .half {
+      width: 48%;
+    }
+
+    .third {
+      width: 31.5%;
+    }
+
+    .spacer{
+      height: 75px;
+    }
+    .spacer2{
+      height: 40px;
+    }
+
+    .mini_spacer{
+      height: 10px;
+    }
+
+    .text {
+      text-align: justify;
+      font-family: Arial;
+      margin: 1%;
+    }
+
+    .text2 {
+      text-align: center;
+      font-family: Arial;
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+
+    .subtitles{
+        font-weight: bold;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .subtitles2{
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    .torta{
+      margin: 3%;
+    }
+
+    .header-content {
+      background-color: rgba(231, 69, 69, 0.9); /* Imposta il colore di sfondo con opacità */
+      border: 0px solid #333; /* Aggiungi un bordo solido con spessore di 2px e colore nero (#333) */
+      padding: 20px; /* Aggiungi spaziatura interna */
+      max-width: 80%;
+      margin: 0 auto;
+    }
+
+    .body{
+      background-color: rgba(231 130 69);
+      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 30px 0;
+      width: 100%;
+    }
+
+
+
+  </style>
+</head>
+<body>
+
+<nav>
+  <A HREF="index.html">← Back</A>
+</nav>
+
+<div class="body">
+<div class="title">Categorization of Car Accident Causes - 2022</div>
+<div class="title2">Timestamp</div>
+<div class="text2">2022</div>
+
+<div class="title2">Data source</div>
+<div class="text2"><A HREF="https://www.istat.it/it/archivio/286933"> ISTAT </A>\n Tab n. 2.20</div>
+
+<div class="title2">Dataset</div>
+<A HREF="cause.xlsx">Excel</A>
+
+<div class="title2">Protocol</div>
+<div class="text2">
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <style>
+  body {
+    text-align: center; /* Centers content in the body */
+  }
+  
+  ul {
+    list-style-type: disc; /* Uses disc for bullet points */
+    padding-left: 0; /* Removes default padding */
+    text-align: left; /* Left aligns text */
+    display: inline-block; /* Centers the list in the body */
+    text-align: justify; /* Justifies the text of the list items */
+  }
+  
+  ul li {
+    margin: 5px 0; /* Space between list items */
+  }
+  
+  /* Custom bullet style if needed */
+  ul.custom-bullets li::before {
+    content: "\2022";  /* Unicode for bullet */
+    color: #000; /* Color of the bullet */
+    font-weight: bold; /* Makes the bullet bold */
+    display: inline-block; 
+    width: 1em; /* Space before the text */
+    margin-left: -1em; /* Aligns the bullet to the left */
+  }
+  </style>
+  </head>
+  <body>
+  
+  <ul class="custom-bullets">
+    <li>Downloaded the Table from the ISTAT website</li>
+    <li>Divided the causes into five groups according to their nature</li>
+    <li>Distraction, speeding, avoiding objects, bumping, falling from a moving vehicle, and others</li>
+    <li>Added the cause next to the numbers</li>
+    <li>Pasted the tables on Flourish</li>
+    <li>Selected columns C and A as categories/nesting and column B as size by</li>
+    <li>Modified the colours to better integrate with the website</li>
+  </ul>
+  
+  </body>
+  </html>
